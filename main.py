@@ -2,7 +2,7 @@
 First file to be run. Accesses other files in the various directories
 """
 
-import Graphics.Basic_Interface as Interface
+import Graphics.MainMenu as MainMenu
 
-# Creates the GUI
-GUI = Interface.Menu()
+#Hmm, wonder what this does
+menu = MainMenu.MainMenu()
